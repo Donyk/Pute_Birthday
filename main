@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Steffen!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            background-color: #fff;
+            margin: auto;
+            width: 80%;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday, Steffen!</h1>
+        <p>We hope you have a fantastic day filled with joy and art! To celebrate, we've prepared a special gift for you.</p>
+        <p>Please click the button below to notify us, and we will send you €40 to use for your ticket to the Art Cologne exhibition this autumn.</p>
+        <button onclick="notify()">Claim Your Gift</button>
+    </div>
+
+    <script>
+        function notify() {
+            // Implement the functionality to send an email or notification to Benjamin
+            // For now, we'll just display a confirmation message.
+            alert("Thank you! Benjamin will transfer the funds shortly.");
+            // You could integrate this with an email API or another method to actually notify you.
+        }
+    </script>
+</body>
+</html>
